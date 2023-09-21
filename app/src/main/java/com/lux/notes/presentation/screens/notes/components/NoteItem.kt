@@ -47,7 +47,7 @@ fun NoteItem(
     Card(
         modifier = modifier
             .fillMaxWidth(),
-        colors = CardDefaults.cardColors(),
+        colors = CardDefaults.cardColors(containerColor = colors.containerColor),
         shape = RoundedCornerShape(size = 12.dp),
         elevation = CardDefaults.cardElevation(3.dp),
         onClick = onClick
